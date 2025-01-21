@@ -18,6 +18,10 @@
     border: none;
     outline: none;
 }
+/* body{
+    width: 100vw;
+    height: 100vh;
+} */
 /* header, section{
     margin: 3.75rem 7%;
 } */
@@ -27,6 +31,7 @@ header{
 }
 section{
     padding: 3.75rem 8.75rem;
+    border-bottom: 3px solid red;
 }
 
 /* navbar section styles */
@@ -213,15 +218,15 @@ section{
     font-size: 15.09px;
     font-weight: 700;
     line-height: 28.3px;
-    padding-top: 50px;
+    /* padding-top: 50px; */
 }
-.circle-arrow-btns button{
+.circle-arrow-btn button{
     height: 50px;
     width: 50px;
     border-radius: 30px;
     background: rgb(254, 163, 1);
 } 
-.circle-arrow-btns button a{
+.circle-arrow-btn button a{
     color: rgb(255, 255, 255);
     font-size: 24px;
     font-weight: 900;
@@ -229,6 +234,191 @@ section{
 } 
 
 /* Our Stories section styles */
-.stories-container{
+.stories-section{
     background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    /* width: 1160px;
+    height: 630.52px; */
 }
+.stories-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.stories-title h1{
+    color: rgb(0, 0, 0);
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 57.5px;
+}
+.stories-images-container{
+    display: flex;
+    gap: 24px;
+    width: 1160px;
+    height: 630.52px;
+    margin: 80px 0px;
+}
+
+/* big image styles */
+.big-image-container{
+    width: 540.27px;
+    height: 630.52px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.big-image-container img{
+    border-radius: 16px 16px 0px 0px;
+}
+.big-image-text-content{
+    padding: 0px 30px 30px 30px ;
+}
+.big-image-btn button{
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+    padding: 15px 18px;
+    position: relative;
+    top: -30px;
+}
+.big-image-btn button a{
+    color: rgb(255, 255, 255);
+    font-size: 15.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+}
+.big-image-title{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38.35px;
+}
+.big-image-description{
+    color: rgb(102, 102, 102);
+    font-size: 15.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+}
+
+
+
+
+
+/* small images styles */
+.small-images-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 601px;
+    height: 622.4px;
+}
+.small-image-card{
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.small-image-card img{
+    border-radius: 16px 16px 0px 0px;
+}
+.small-image-text-content{
+    padding: 0px 30px 30px 30px ;
+}
+.small-image-btn button{
+    border-radius: 47.93px;
+    background: rgb(149, 178, 38);
+    padding: 15px 18px;
+    position: relative;
+    top: -30px;
+}
+.small-image-btn button a{
+    color: rgb(255, 255, 255);
+    font-size: 15.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+}
+.small-image-description{
+    color: rgb(0, 0, 0);
+    font-size: 15.34px;
+    font-weight: 700;
+    line-height: 28.76px;
+}
+.stories-btn button{
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    padding: 10px 32px;
+}
+.stories-btn button a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+/* footer section style */
+.footer-section{
+    background: rgb(1, 172, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    width: 1070.91px;
+    height: 222px;
+    margin: 140px;
+}
+/* .footer-container> div{
+    width: 33.33%;
+} */
+.kids-education-container{
+    width: 400px;
+
+}
+.education{
+    display: flex;
+}
+
+ .kinds-edu{
+    color: rgb(255, 255, 255);
+    font-size: 42.14px;
+    font-weight: 700;
+    line-height: 39.51px;
+}
+.edu-description{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 30px;
+    }
+    .about-school{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-school h3{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    }
+    .about-school a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    margin: 10px 0px;
+    }
+    .social-title{
+        color: rgb(255, 255, 255);
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 26px;
+        margin-bottom: 50px;
+    }
+    .social-link a{
+        margin-right: 20px;
+    }
+
