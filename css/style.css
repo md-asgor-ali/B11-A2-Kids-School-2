@@ -103,7 +103,7 @@ section{
 }
 .banner-text-container{
     max-width: 40rem;
-    max-height: 331px;
+    /* max-height: 331px; */
     margin: 122px 0px;
     /* width: 100%; */
 }
@@ -171,8 +171,8 @@ section{
     gap: 2rem;
     align-items: center;
     justify-content: center;
-    max-width: 72.5rem;
-    max-height: 31rem;
+    /* max-width: 72.5rem;
+    max-height: 31rem; */
     margin: 80px auto;
 }
 .uni-box{
@@ -262,8 +262,8 @@ section{
 .stories-images-container{
     display: flex;
     gap: 1rem;
-    width: 72.5rem;
-    height: 40rem;
+    /* width: 72.5rem;
+    height: 40rem; */
     margin: 5rem 0rem;
 }
 
@@ -315,16 +315,18 @@ section{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    max-width: 37.5rem;
-    max-height: 38.87rem;
+    /* max-width: 37.5rem;
+    max-height: 38.87rem; */
 }
 .small-image-card{
     border-radius: 16px;
     background: rgb(255, 255, 255);
-    width: 290.69px;
-    height: 301.61px;
+    width: 18.13rem;
+    height: 18.8rem;
 }
 .small-image-card img{
+    /* width: 33.75rem;
+    height: 22rem; */
     border-radius: 16px 16px 0px 0px;
 }
 .small-image-text-content{
@@ -463,7 +465,7 @@ section{
     }
     .curriculum-title{
         font-size: 2rem;
-        line-height: 2.5rem;
+        line-height: 3rem;
         text-align: center;
     }
     .curriculum-box-container{
@@ -473,13 +475,43 @@ section{
         height: auto;
     }
     .uni-box{
-        max-width: 21rem;
+        max-width: 20rem;
         max-height: 29.75rem;
     }
     .small-images-container{
         grid-template-columns: repeat(2, 1fr);
-        max-width: 30.5rem;
-        max-height: 30.87rem;
+        gap: 10px;
+        max-width: 25.5rem;
+        max-height: 39.87rem;
+    }
+    .stories-title h1{
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    .small-image-card img{
+        width: 11.13rem;
+        /* height: 22rem; */
+    }
+    .small-image-card{
+        width: 11.13rem;
+        height: 15.8rem;
+    }
+
+    .small-image-description{
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 25px;
+    }
+    .small-image-text-content{
+        padding: 0px 20px 20px 20px ;
+    }
+    .small-image-btn button{
+        padding: 10px 15px;
+    }
+    .small-image-btn button a{
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 20px;
     }
     .footer-container{
         flex-direction: column;
@@ -489,6 +521,4 @@ section{
         /* margin-bottom: 30px 30px; */
 
     }
-
- 
 }
