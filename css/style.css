@@ -1,12 +1,6 @@
 /* google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-/* :root{
-    --color-1: w   ;
-    --color-2:#13131a;
-    --color-3:#010103;
-    --color-4:.1rem solid rgba(255,255,255,.3);
-} */
 
 *{
     margin: 0;
@@ -17,23 +11,13 @@
     font-family: "Quicksand", serif;
     border: none;
     outline: none;
-    /* border: 2px dashed red; */
 }
-/* body{
-    width: 100vw;
-    height: 100vh;
-    border: 4px dashed green;
-} */
-/* header, section{
-    margin: 3.75rem 7%;
-} */
 
 header{
     margin: 1.5rem 7%;
 }
 section{
     padding: 3.75rem 8.75rem;
-    /* border-bottom: 3px solid red; */
 }
 
 /* navbar section styles */
@@ -102,12 +86,11 @@ section{
     justify-content: space-between;
     gap: 3.13rem;
     align-items: center;
+    margin-top: 30px;
 }
 .banner-text-container{
     max-width: 40rem;
-    /* max-height: 331px; */
     margin: 122px 0px;
-    /* width: 100%; */
 }
 .banner-title{
     font-size: 3.5rem;
@@ -145,6 +128,7 @@ section{
 .banner-image img{
     max-width: 29.25rem;
     max-height: 36rem;
+
 }
 /* Standard Curriculum section styles */
 .curriculum-container{
@@ -156,9 +140,6 @@ section{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* width: 100%;
-    object-fit: cover;
-    overflow: hidden; */
 }
 .curriculum-title h1{
     color: rgb(0, 0, 0);
@@ -173,13 +154,11 @@ section{
     gap: 2rem;
     align-items: center;
     justify-content: center;
-    /* max-width: 72.5rem;
-    max-height: 31rem; */
-    margin: 80px auto;
+    margin: 70px auto;
 }
 .uni-box{
     max-width: 23rem;
-    max-height: 29.75rem;
+    /* max-height: 29.75rem; */
 }
 .curriculum-box-1{
     width: 23rem;
@@ -229,7 +208,7 @@ section{
     font-size: 1rem;
     font-weight: 700;
     line-height: 1.75rem;
-    /* padding-top: 50px; */
+    /* margin-top: 50px; */
 }
 .orange-color{
     color: rgb(240, 170, 0);
@@ -448,6 +427,9 @@ section{
 
 /* Extra small devices (phones, 576px and down) */
 @media only screen and (max-width: 576px) {
+    section{
+        padding: 2rem 5rem;
+    }
     .display-none{
         display: none;
     }
@@ -469,13 +451,8 @@ section{
     }
 
     .banner-image img{
-        /* max-width: 29.25rem;
-        max-height: 36rem; */
-        /* margin: 2rem auto; */
-        max-width: 25rem;
+        max-width: 24rem;
         max-height: 32rem;
-        /* width: 100%; */
-        /* text-align: center; */
     }
     .banner-text-container{
         text-align: center;
