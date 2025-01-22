@@ -243,11 +243,12 @@ section{
     align-items: center;
     justify-content: center;
 }
-.stories-title {
+.stories-title h2{
     color: rgb(0, 0, 0);
     font-size: 2.8rem;
-    font-weight: bold;
-    /* line-height: 3.6rem; */
+    font-weight: 700;
+    line-height: 3.6rem;
+    text-align: center;
 }
 .stories-images-container{
     display: flex;
