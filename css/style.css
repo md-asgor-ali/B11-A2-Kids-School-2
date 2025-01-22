@@ -158,7 +158,7 @@ section{
     object-fit: cover;
     overflow: hidden; */
 }
-.curriculum-title{
+.curriculum-title h2{
     color: rgb(0, 0, 0);
     font-size: 2.8rem;
     font-weight: 700;
@@ -261,7 +261,7 @@ section{
     align-items: center;
     justify-content: center;
 }
-.stories-title h1{
+.stories-title h2{
     color: rgb(0, 0, 0);
     font-size: 2.8rem;
     font-weight: 700;
@@ -449,15 +449,18 @@ section{
     .display-none{
         display: none;
     }
+
     .hamburger-menu{
         display: block;
         font-size: 50px;
-        position: relative;
-        right: 0;
+        cursor: pointer;
     }
     .navbar-container{
         border-bottom: 1px solid rgb(254, 163, 1);
     }
+
+
+
     .banner-container{
         flex-direction: column-reverse;
         justify-content: center;
@@ -475,7 +478,7 @@ section{
 
     }
     .curriculum-title{
-        font-size: 2rem;
+        font-size: 3rem;
         line-height: 3rem;
         text-align: center;
     }
@@ -495,8 +498,9 @@ section{
         max-width: 25.5rem;
         max-height: 39.87rem;
     }
+
     .stories-title h1{
-        font-size: 3rem;
+        font-size: 2rem;
         line-height: 3rem;
     }
     .small-image-card img{
@@ -524,6 +528,15 @@ section{
         font-weight: 500;
         line-height: 20px;
     }
+
+    .stories-btn button{
+        padding: 10px 20px;
+    }
+    .stories-btn button a{
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        line-height: 20px;
+    }
     .footer-container{
         flex-direction: column;
         gap: 40px;
@@ -532,13 +545,5 @@ section{
         margin: 50px;
         padding: 30px;
 
-    }
-    .stories-btn button{
-        padding: 10px 20px;
-    }
-    .stories-btn button a{
-        color: rgb(255, 255, 255);
-        font-size: 15px;
-        line-height: 20px;
     }
 }
