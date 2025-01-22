@@ -229,6 +229,12 @@ section{
     line-height: 1.75rem;
     /* padding-top: 50px; */
 }
+.orange-color{
+    color: rgb(240, 170, 0);
+}
+.blue-color{
+    color: rgb(135, 0, 255);;
+}
 .circle-arrow-btn button{
     height: 50px;
     width: 50px;
@@ -240,7 +246,9 @@ section{
     font-size: 1.5rem;
     font-weight: 900;
     line-height: 1.5rem;
+    padding-top: 50px;
 } 
+
 
 /* Our Stories section styles */
 .stories-section{
@@ -330,7 +338,7 @@ section{
     border-radius: 16px 16px 0px 0px;
 }
 .small-image-text-content{
-    padding: 0px 30px 30px 30px ;
+    padding: 0px 30px 40px 30px ;
 }
 .small-image-btn button{
     border-radius: 47.93px;
@@ -365,6 +373,11 @@ section{
     font-weight: 700;
     line-height: 30px;
 }
+
+
+
+
+
 /* footer section style */
 .footer-section{
     background: rgb(1, 172, 253);
@@ -381,9 +394,7 @@ section{
     height: 222px;
     margin: 140px;
 }
-/* .footer-container> div{
-    width: 33.33%;
-} */
+
 .kids-education-container{
     width: 400px;
 
@@ -518,7 +529,16 @@ section{
         gap: 40px;
         width: 100%;
         height: auto;
-        /* margin-bottom: 30px 30px; */
+        margin: 50px;
+        padding: 30px;
 
+    }
+    .stories-btn button{
+        padding: 10px 20px;
+    }
+    .stories-btn button a{
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        line-height: 20px;
     }
 }
